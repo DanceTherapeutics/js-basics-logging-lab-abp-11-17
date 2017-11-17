@@ -1,2 +1,5 @@
 const driver = 'bob';
-return console.log('this code was called');
+function expect(spy.calledWithExactly('this code was called')){
+  
+}
+
